@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>College Project - Aço Damasco</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<!-- Header -->
+				<header id="header">
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="#">Projects</a>
+								<ul>
+									<<li><a href="projects-personal.html">Personal</a></li>
+									<li><a href="projects-college.html">College</a></li>
+								</ul>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="https://github.com/RamonPastre" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/ramon-pastre/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+
+						</ul>
+					</nav>
+				</header>
+				<!--Index-->
+					<div class="content">
+						<center>
+						<header>
+							<h2>Forge temperature capture!</h2>
+							<p>Powered by: Arduino and Python.</p>
+						</header>
+							<p>This project has been made to help the group of the college “Aço Damasco” - (FHO), 
+              to capture the temperature from the forge and generate graphics.<br> To be easy to repeat the hardness on 
+              the Damascus steel. Using Arduino and a few sensors K-type and S-type.</p>
+							<p>First, we got the inputs for de LCD display.</p>
+              <span ><img src="images/tabelaLCD.png" alt="" id="image-texto"/></span><br><br>
+							<p>This is the setup to connect the LCD display to Arduino. you need (LiquidCrystal.h) library. </p>
+              <span ><img src="images/fri1.png" alt="" id="image-texto"/></span><br><br>
+              <p>This is the setup to connect the K-type sensor, also is needed a library (max6675.h) to the Arduino read the temperature. </p>
+							
+							<span ><img src="images/fri2.png" alt="" id="image-texto"/></span><br><br>
+							<p>For the S-type sensor was different, we had to make amp op on the  PCB board, to the Arduino can read the sensor.
+               Using an ICL7660S to make possible to read. </p>
+							<span ><img src="images/tl.png" alt="" id="image-texto" /></span><br><br>
+							<p>To design the PCB the EAGLE software was needed. </p>
+							<span ><img src="images/eagle1.png" alt="" id="image-texto"/></span><br><br>
+							<p>The design was almost ready to be print.</p>
+							<span ><img src="images/eagle2.png" alt="" id="image-texto" /></span><br><br>
+              <p>After we engrave no the copper.</p>
+              <span ><img src="images/pcb.png" alt="" id="image-texto" /></span><br><br>
+              <p>After the fret, we solder the components.</p>
+              <span ><img src="images/pcb2.png" alt="" id="image-texto" /></span><br><br>
+              <span ><img src="images/pcb3.png" alt="" id="image-texto" /></span><br><br>
+              <p>After assembly all together we tested on the forge, and generate the graphics.</p>
+              <span ><img src="images/grafico.png" alt="" id="image-texto" /></span><br><br>
+          </center>	
+					</div>
+
+
+
+
+
+
+
+				<!--Index--> 
+
+
+			<!-- Footer -->
+			<ul class="actions special">
+								<li><a href="#" class="button">Back to top</a></li>
+							</ul>
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://github.com/RamonPastre" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="https://www.linkedin.com/in/ramon-pastre/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					</ul>
+					
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
